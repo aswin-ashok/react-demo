@@ -7,7 +7,7 @@ const LandingPage = () => {
         <Fragment>
             <Navbar />
         </Fragment>
-    )
+    );
 }
 
 export default LandingPage;
