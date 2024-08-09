@@ -21,5 +21,5 @@ const Navbar = () => {
         </Fragment>
     );
 }
-
+    
 export default Navbar;
