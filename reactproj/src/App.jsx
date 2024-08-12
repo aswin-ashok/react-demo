@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import LandingPage from './assets/Pages/LandingPage'
+import LandingPage from './Pages/LandingPage'
 
 const App = () => {
   return (
