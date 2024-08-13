@@ -1,4 +1,6 @@
 import React, { Fragment } from "react";
+import Container from "react-bootstrap/esm/Container";
+
 
 const styles = {
     outercontainer: {
@@ -20,7 +22,7 @@ const styles = {
 
 const Footer = () => {
     return (
-        <Fragment>
+        <Container>
             <div className="footer-logo">
                 <img width={150} src="../../src/assets/images/LogoBLACK.png" alt="logo"></img>
             </div>
@@ -73,7 +75,7 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-        </Fragment>
+        </Container>
     )
 }
 

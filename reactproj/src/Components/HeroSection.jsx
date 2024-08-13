@@ -1,10 +1,13 @@
 import React, { Fragment } from "react";
+import Container from "react-bootstrap/esm/Container";
+
 
 const styles ={
     outercontainer: {
         display: "flex",
         alignItems:"center",
-        paddingTop:"8rem"
+        paddingTop:"8rem",
+        marginBottom:"4rem"
     },
     hero_subtitle: {
         fontSize: "1.25rem",
@@ -26,7 +29,7 @@ const styles ={
 
 const HeroSection = () => {
     return (
-        <Fragment>
+        <Container>
             <div style={styles.outercontainer}>
                 <div className="left-sec">
                     <h1 style={{fontSize: "3.5rem"}}>TinkerHub Foundation</h1>
@@ -48,7 +51,7 @@ const HeroSection = () => {
                     <img width={500} src="../../src/assets/images/banner-image.svg" alt="banner-image"></img>
                 </div>
             </div>
-        </Fragment>
+        </Container>
     )
 }
 

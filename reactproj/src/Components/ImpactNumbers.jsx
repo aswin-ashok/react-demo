@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import Container from "react-bootstrap/esm/Container";
 
 const styles ={
     outercontainer: {
@@ -19,7 +20,7 @@ const styles ={
 
 const ImpactNumbers = () => {
     return (
-        <Fragment>
+        <Container>
             <div style={styles.outercontainer}>
                 <h2 style={{fontSize:"3.5rem"}}>TinkerHub Impact In Numbers</h2>
                 <p style={{fontSize:"1.25rem",color:"#7c7c7c"}}>What we have achieved over years</p>
@@ -115,7 +116,7 @@ const ImpactNumbers = () => {
 
                 </div>
             </div>
-        </Fragment>
+        </Container>
     )
 }
 
