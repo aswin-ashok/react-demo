@@ -1,11 +1,13 @@
-import { Fragment } from 'react';
-import LandingPage from './Pages/LandingPage';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React, { Fragment } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import BootstrapPage from "./Pages/BootstrapPage";
 
 const App = () => {
   return (
-    <LandingPage />
+    <Fragment>
+      <BootstrapPage />
+    </Fragment>
   );
-}
+};
 
 export default App;
