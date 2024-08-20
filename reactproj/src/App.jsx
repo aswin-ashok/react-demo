@@ -1,11 +1,11 @@
 import React, { Fragment } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Sevenup from "./Pages/Sevenup";
+import Hooks from "./Pages/Hooks";
 
 const App = () => {
   return (
     <Fragment>
-      <Sevenup />
+      <Hooks />
     </Fragment>
   );
 };
